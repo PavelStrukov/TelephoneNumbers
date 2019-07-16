@@ -21,7 +21,7 @@ public class Number {
         this.personalNumber = persNumber;
     }
 
-    public String getNumber() {//maybe unuseful
+    public String getNumber() {
         StringBuilder sb = new StringBuilder();
         sb.append(this.countryCode);
         sb.append(this.operatorCode);
